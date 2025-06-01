@@ -117,7 +117,7 @@
   "sub": "1234567890",        // subject claim (등록된 claim)
   "name": "홍길동",             // 공개 claim
   "iat": 1516239022,          // issued at claim (등록된 claim)
-  "exp": 1516242622,           // expiration time claim (등록된 claim)
+  "exp": 1516242622,          // expiration time claim (등록된 claim)
   "role": "manager"           // 비공개 클레임: 사용자 역할
 }
 ```
@@ -141,13 +141,13 @@
   "iss": "auth.myapp.com",        // 등록된 클레임: 발급자
   "sub": "user_12345",            // 등록된 클레임: 사용자 ID
   "iat": 1622419200,              // 등록된 클레임: 발급 시간
-  "exp": 1622505600              // 등록된 클레임: 만료 시간
+  "exp": 1622505600               // 등록된 클레임: 만료 시간
 }
 ```
 ```jsonc
 {
   "name": "홍길동",                 // 공개 클레임: 표준화된 이름
-  "email": "hong@example.com"    // 공개 클레임: 표준화된 이메일
+  "email": "hong@example.com"     // 공개 클레임: 표준화된 이메일
 }
 ```
 ```jsonc
